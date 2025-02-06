@@ -1,0 +1,11 @@
+{
+	"common": {
+		"app_name": "CoTAKU"
+	},
+	"user": {
+		"sign_in": "登入"
+	},
+	"event": {
+		"product_search_bar_placeholder": "搜尋產品"
+	}
+}
