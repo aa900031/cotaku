@@ -7,5 +7,8 @@
 	},
 	"event": {
 		"product_search_bar_placeholder": "搜尋產品"
+	},
+	"product": {
+		"section_count": "共 {count} 個"
 	}
 }

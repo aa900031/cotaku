@@ -9,8 +9,7 @@ useHead({
 <template>
 	<div class="flex flex-col min-h-dvh">
 		<!-- Header -->
-		<div class="w-full max-w-[64rem] mx-auto px-6 lg:px-8 group/menu sticky top-[var(--header-top)] inset-x-0 z-[49] duration-300 max-lg:data-[state=open]:bg-background/90">
-			<div class="absolute top-0 inset-x-0 h-[calc(var(--header-top)+var(--header-height)+2rem)] pointer-events-none bg-linear-to-b from-background via-background to-transparent lg:h-[calc(var(--header-top)+var(--header-height)+3rem)]" />
+		<div class="w-full max-w-[64rem] mx-auto px-6 lg:px-8 group/menu inset-x-0 duration-300 max-lg:data-[state=open]:bg-background/90">
 			<div class="relative flex flex-nowrap items-center py-3.5 gap-x-3 text-sm h-[var(--header-height)] isolate duration-300 lg:gap-4">
 				<NuxtLink
 					class="flex gap-x-2 gap-y-1 flex-row flex-wrap items-center place-content-start group/logo text-primary mr-auto hover:text-primary-500"
